@@ -4,15 +4,15 @@
   gap: 100px;
 }
 
-.texto {
-  position: relative;
+.apresentacao img {
+  padding-left: 40px;
 }
 
 .apresentacao-texto {
   font-family: var(--ft-san);
   color: var(--cor-5);
   font-size: 5rem;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .apresentacao-frase {
