@@ -1,0 +1,33 @@
+.header {
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px auto;
+}
+
+.marca {
+  font-family: var(--ft-cursiva);
+  padding: 30px;
+  color: var(--cor-5);
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 30px;
+}
+
+.header-menu li {
+  list-style: none;
+}
+
+.header-menu li a {
+  padding: 10px 25px;
+  text-decoration: none;
+  background: var(--cor-4);
+  text-transform: uppercase;
+  color: var(--cor-5);
+  font-family: var(--ft-san);
+  border-radius: 5px;
+}
